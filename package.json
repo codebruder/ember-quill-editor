@@ -1,7 +1,7 @@
 {
   "name": "ember-quill-editor",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Ember addon for the wysiwyg editor quill.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,10 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": {
+    "name": "Adrian Gurzynski",
+    "email": "adriang@voll.digital"
+  },
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -41,10 +44,18 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-quill-editor",
+    "editor",
+    "texteditor",
+    "wysiwyg",
+    "quilljs",
+    "quill"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-htmlbars": "^1.0.3",
+    "quill": "^1.0.4"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
